@@ -49,6 +49,8 @@
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "css",
             "assets": [
+              "src/favicon.ico",
+              "src/assets",
               {
                 "glob": "**/*",
                 "input": "public"
@@ -58,13 +60,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/app/assets/js/breakpoints.min.js",
-              "src/app/assets/js/browser.min.js",
-              "src/app/assets/js/jquery.min.js",
-              "src/app/assets/js/jquery.scrollex.min.js",
-              "src/app/assets/js/jquery.scrolly.min.js",
-              "src/app/assets/js/main.js",
-              "src/app/assets/js/util.js"
+             
             ]
           },
           "configurations": {
@@ -116,6 +112,8 @@
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "css",
             "assets": [
+              "src/favicon.ico",
+                "src/assets",
               {
                 "glob": "**/*",
                 "input": "public"
@@ -125,13 +123,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/app/assets/js/breakpoints.min.js",
-              "src/app/assets/js/browser.min.js",
-              "src/app/assets/js/jquery.min.js",
-              "src/app/assets/js/jquery.scrollex.min.js",
-              "src/app/assets/js/jquery.scrolly.min.js",
-              "src/app/assets/js/main.js",
-              "src/app/assets/js/util.js"
+      
             ]
           }
         }

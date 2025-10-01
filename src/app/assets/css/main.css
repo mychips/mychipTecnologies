@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: ('src/app/assets/css/images/background.jpg'), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: ('src/app/assets/css/images/overlay.png'), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: ('src/app/assets/css/images/overlay.png'), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: ('src/app/assets/css/images/overlay.png'), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: ('src/app/assets/css/images/overlay.png'), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: ('assets/images/background.jpg'), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: ('assets/images/backgroud.jpg'), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: ('assets/images/backgroud.jpg'), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: ('assets/images/backgroud.jpg'), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: ('assets/images/backgroud.jpg'), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
