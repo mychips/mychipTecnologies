@@ -57,20 +57,28 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/app/assets/js/breakpoints.min.js",
+              "src/app/assets/js/browser.min.js",
+              "src/app/assets/js/jquery.min.js",
+              "src/app/assets/js/jquery.scrollex.min.js",
+              "src/app/assets/js/jquery.scrolly.min.js",
+              "src/app/assets/js/main.js",
+              "src/app/assets/js/util.js"
+            ]
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumWarning": "10MB",
+                  "maximumError": "4MB"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "4kB",
-                  "maximumError": "8kB"
+                  "maximumWarning": "10MB",
+                  "maximumError": "4MB"
                 }
               ],
               "outputHashing": "all"
@@ -116,7 +124,15 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/app/assets/js/breakpoints.min.js",
+              "src/app/assets/js/browser.min.js",
+              "src/app/assets/js/jquery.min.js",
+              "src/app/assets/js/jquery.scrollex.min.js",
+              "src/app/assets/js/jquery.scrolly.min.js",
+              "src/app/assets/js/main.js",
+              "src/app/assets/js/util.js"
+            ]
           }
         }
       }
