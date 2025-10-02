@@ -7,7 +7,8 @@ export const routes: Routes = [
         path: 'home', component: HomeComponent, title: 'Home'
     },
     {
-        path: 'toolbar', component: ToolbarComponent, title: 'Toolbar'    },
+        path: 'toolbar', component: ToolbarComponent, title: 'Toolbar'
+    },
     {
         path: '**', redirectTo: 'home', pathMatch: 'full'
     }
